@@ -11,7 +11,7 @@
 // My solution
 
 function countBy(x, n) {
-    var z = [];
+    let z = [];
       for(let i = 1; i <= n; i++){
       z.push(i * x)
      }
